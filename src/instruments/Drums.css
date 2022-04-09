@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+}
+
+.drumkit{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background: radial-gradient(#e18174,#d15746);
+    border-radius: 10px;
+    height: 20vh;
+}
+
+.padcontainer{
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.icon{
+    width: 20vh;
+    height: 20vh;
+}

@@ -1,0 +1,48 @@
+.xylophone{
+    display: flex;
+    align-items:center;
+    font-family: cursive;
+}
+
+.page{
+    align-items:center;
+    font-family: cursive;
+    display: flex;
+}
+
+.playbutton{
+    padding: 10px; 
+    height: 200px;
+    border: none;
+    color: white;
+    font-weight : bold;
+    font-size: 24px;
+    background-color: green;
+    border-radius: 5px;
+    margin-right: 15px;
+    transition: 0.3s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.playbutton:hover{
+  background-color: yellowgreen;
+}
+
+.playbutton :last-child {
+    margin-right: 0;
+}
+
+.playbutton :not(last-child) {
+    margin-right: 15px;
+}
+
+.circle{
+    background: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}

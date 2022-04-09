@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-indent: 50px;
+}
+
+.kalimba{
+    display: flex; 
+    align-items: top;
+    vertical-align: text-top;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.page{
+    display: flex;
+    align-items: top;
+    vertical-align: text-top;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightpink;
+}
+
+.playbutton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    font-weight: lighter;
+    font-size: 22px;
+    padding: 15px; 
+    border: none;
+    border-radius: 30px;
+    margin-right: 15px;
+}
+
+.playbutton:hover{
+  background-color: hotpink ;
+}
