@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/music-website/static/css/main.35497a74.chunk.css",
+    "main.js": "/music-website/static/js/main.37270fc9.chunk.js",
+    "main.js.map": "/music-website/static/js/main.37270fc9.chunk.js.map",
+    "runtime-main.js": "/music-website/static/js/runtime-main.eb103a5c.js",
+    "runtime-main.js.map": "/music-website/static/js/runtime-main.eb103a5c.js.map",
+    "static/css/2.a1596f27.chunk.css": "/music-website/static/css/2.a1596f27.chunk.css",
+    "static/js/2.60f5cac3.chunk.js": "/music-website/static/js/2.60f5cac3.chunk.js",
+    "static/js/2.60f5cac3.chunk.js.map": "/music-website/static/js/2.60f5cac3.chunk.js.map",
+    "index.html": "/music-website/index.html",
+    "static/css/2.a1596f27.chunk.css.map": "/music-website/static/css/2.a1596f27.chunk.css.map",
+    "static/css/main.35497a74.chunk.css.map": "/music-website/static/css/main.35497a74.chunk.css.map",
+    "static/js/2.60f5cac3.chunk.js.LICENSE.txt": "/music-website/static/js/2.60f5cac3.chunk.js.LICENSE.txt",
+    "static/media/mallet.8a244a80.png": "/music-website/static/media/mallet.8a244a80.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb103a5c.js",
+    "static/css/2.a1596f27.chunk.css",
+    "static/js/2.60f5cac3.chunk.js",
+    "static/css/main.35497a74.chunk.css",
+    "static/js/main.37270fc9.chunk.js"
+  ]
+}
