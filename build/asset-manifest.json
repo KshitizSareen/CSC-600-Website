@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/CSC-600-Website/static/css/main.35497a74.chunk.css",
+    "main.js": "/CSC-600-Website/static/js/main.37270fc9.chunk.js",
+    "main.js.map": "/CSC-600-Website/static/js/main.37270fc9.chunk.js.map",
+    "runtime-main.js": "/CSC-600-Website/static/js/runtime-main.3aa942de.js",
+    "runtime-main.js.map": "/CSC-600-Website/static/js/runtime-main.3aa942de.js.map",
+    "static/css/2.a1596f27.chunk.css": "/CSC-600-Website/static/css/2.a1596f27.chunk.css",
+    "static/js/2.584aacba.chunk.js": "/CSC-600-Website/static/js/2.584aacba.chunk.js",
+    "static/js/2.584aacba.chunk.js.map": "/CSC-600-Website/static/js/2.584aacba.chunk.js.map",
+    "index.html": "/CSC-600-Website/index.html",
+    "static/css/2.a1596f27.chunk.css.map": "/CSC-600-Website/static/css/2.a1596f27.chunk.css.map",
+    "static/css/main.35497a74.chunk.css.map": "/CSC-600-Website/static/css/main.35497a74.chunk.css.map",
+    "static/js/2.584aacba.chunk.js.LICENSE.txt": "/CSC-600-Website/static/js/2.584aacba.chunk.js.LICENSE.txt",
+    "static/media/mallet.8a244a80.png": "/CSC-600-Website/static/media/mallet.8a244a80.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3aa942de.js",
+    "static/css/2.a1596f27.chunk.css",
+    "static/js/2.584aacba.chunk.js",
+    "static/css/main.35497a74.chunk.css",
+    "static/js/main.37270fc9.chunk.js"
+  ]
+}
