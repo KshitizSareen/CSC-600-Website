@@ -24,6 +24,7 @@ function App() {
   useEffect(() => {
     initializeSocket(
       async socket => {
+ 
       },
       () => {
         dispatch(new DispatchAction('DELETE_SOCKET'));
@@ -34,10 +35,10 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/CSC-600-Website">
+        <Route path="/">
           <MainPage state={state} dispatch={dispatch} />
         </Route>
-        <Route path="/CSC-600-Website/:instrument">
+        <Route path="/:instrument">
           <MainPage state={state} dispatch={dispatch} />
         </Route>
         <Route path="*">
