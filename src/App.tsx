@@ -37,7 +37,7 @@ function App() {
         <Route path="/CSC-600-Website">
           <MainPage state={state} dispatch={dispatch} />
         </Route>
-        <Route path="/:instrument">
+        <Route path="/CSC-600-Website/:instrument">
           <MainPage state={state} dispatch={dispatch} />
         </Route>
         <Route path="*">
