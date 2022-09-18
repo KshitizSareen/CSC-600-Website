@@ -12,6 +12,7 @@ import { initializeSocket, send } from './Socket';
 
 // css imports
 import 'animate.css';
+import React from 'react';
 
 /** ------------------------------------------------------------------------ **
  * App component
