@@ -34,7 +34,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/">
+        <Route path="/CSC-600-Website">
           <MainPage state={state} dispatch={dispatch} />
         </Route>
         <Route path="/:instrument">
