@@ -70,7 +70,7 @@ function Instruments({ state }: SideNavProps): JSX.Element {
       {instruments.map(i => (
         <RadioButton
           key={i.name}
-          to={`/${i.name}${location.search}`}
+          to={`/CSC-600-Website/${i.name}${location.search}`}
           text={i.name}
           active={i.name === activeInstrument}
           onClick={() => console.log(i.name)}
