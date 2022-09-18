@@ -1,6 +1,6 @@
 import { io as newSocket, Socket as SocketIO } from 'socket.io-client';
 
-const SOCKET_URL = 'ws://localhost:3001';
+const SOCKET_URL = 'ws://localhost:3000';
 
 const SOCKET_OPTS = {
   transports: ['websocket'],
@@ -41,7 +41,7 @@ export function initializeSocket(
 ): Socket {
   const socket = newSocket(SOCKET_URL, SOCKET_OPTS);
 
-  socket.on('connect', () => onConnect(socket));
+  socket.on('connect', () => {});
   socket.on('disconnect', onDisconnect);
 
   return socket;

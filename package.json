@@ -1,6 +1,7 @@
 {
    "name": "lambdavibe",
    "version": "0.1.0",
+   "homepage": "https://KshitizSareen.github.io/CSC-600-Website",
    "private": true,
    "dependencies": {
       "@carbon/icons-react": "^10.36.0",

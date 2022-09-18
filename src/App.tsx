@@ -23,13 +23,6 @@ function App() {
   useEffect(() => {
     initializeSocket(
       async socket => {
-        dispatch(new DispatchAction('SET_SOCKET', { socket }));
-        const { songs } = await send(socket, 'get_songs',{});
-        dispatch(new DispatchAction('SET_SONGS', { songs }));
-        const {albums} = await send(socket,'get_albums',{});
-        dispatch(new DispatchAction('SET_ALBUMS',{albums})); 
-        const {genres} = await send(socket,'get_genres',{});
-        dispatch(new DispatchAction('SET_GENRES',{genres}));
       },
       () => {
         dispatch(new DispatchAction('DELETE_SOCKET'));

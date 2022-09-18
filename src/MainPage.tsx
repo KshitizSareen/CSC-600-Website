@@ -85,7 +85,6 @@ function ShowWelcome({ state, dispatch }: PanelProps): JSX.Element {
           Select an instrument and a visualizer on the left to serve some fresh beats.
         </div>
         {/* <div className="f5">The UI is yours to design. Express yourself.</div> */}
-        <ShowSongs state={state} dispatch={dispatch}/>
       </div>
     </div>
   );

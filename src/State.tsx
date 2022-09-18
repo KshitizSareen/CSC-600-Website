@@ -27,7 +27,7 @@ import { BarCircleVisualizer} from './visualizers/KshitizSareen';
 export type AppState = Map<string, any>;
 
 
-const instruments = List([PianoInstrument,DrumsInstrument,XylophoneInstrument,WindInstruments,KalimbaInstrument]);
+const instruments = List([PianoInstrument]);
 const visualizers = List([WaveformVisualizer,CircleVisualizer,EllipticalVisualizer,BarCircleVisualizer,BoxVisualizer]);
 export const defaultState: AppState = Map<string, any>({
   instruments,
